@@ -176,21 +176,22 @@ h5.tittle {
 .side-bar {
 	background: #fff;
 }
-.side-bar li {
-}
+
 .side-bar .personal-info {
 	padding: 25px;
 	border-bottom: 1px solid #e6e6e6;
 }
 .side-bar .personal-info li span {
-	width: 50%;
+	width: 43%;
 	float: left;
 	text-transform: uppercase;
-	font-weight: bold;
+	font-size: 0.9em;
 }
 .side-bar .personal-info li p {
+	font-weight: bold;
 	margin: 0px;
 	line-height: 30px;
+	font-size: 1.1em;
 }
 .side-bar .personal-info li a {
 	color: #346abb;
@@ -508,7 +509,7 @@ h5.tittle {
 }
 .exp-history .company-logo {
 	position: absolute;
-	right: 0px;
+	right: 20px;
 }
 .exp-history a {
 	color: #346abb;
@@ -1059,6 +1060,8 @@ h5.tittle {
 	top: 50%;
 	margin-top: -18px;
 }
+
+
 /*=======================================================
       POERFOLIO COL
 ========================================================*/

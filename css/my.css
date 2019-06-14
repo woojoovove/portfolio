@@ -1,0 +1,209 @@
+/* @import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css); .nanummyeongjo * { font-family: 'Nanum Myeongjo', serif; } */
+@import url(http://fonts.googleapis.com/earlyaccess/jejumyeongjo.css); .jejumyeongjo * { font-family: 'Jeju Myeongjo', serif; }
+
+
+
+/* PORTFOLIO ITEMS */
+
+#Container > article:nth-child(1) {
+    position: relative;
+}
+
+.btn-modal {
+    position: absolute;
+}
+
+
+/* MODAL */
+
+.modal h1, .modal h2, .modal h3, .modal h4, .modal h5, .modal h6, span, P {
+    font-family: 'Jeju Myeongjo';
+    padding: 0;
+    text-transform: unset;
+    
+}
+.modal .badge.badge-blue {
+    font-family: 'Jeju Myeongjo';
+    font-size: 1.1em;
+    margin-right: 35px;
+    padding: 3 20px;
+    color: #fff;
+    background-color: #346abb;
+}
+.modal-dialog.modal-big {
+    width: 970px;
+    position: relative;
+}
+
+.modal-content.my {
+    border-radius: 0;
+    border: 30px solid lavender; 
+
+}
+
+.content-inner {
+    background-color: white;
+}
+
+.modal-header.my{
+    padding: 15px 35px;
+}
+
+.modal-title.title {
+    
+    text-align: center;
+    color: #333; 
+    font-size: 24px;
+}
+
+.modal-subtitle {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.close {
+    font-size: 3em;
+    z-index: 10;
+}
+
+.modal-inner-line1>span, .modal-inner-line2>span {
+    display: inline-block;
+    float: left;
+}
+
+.modal-inner-line1 {
+    margin-bottom: 10px;
+}
+
+/* BODY */
+.modal-content-body {
+    margin-top: 30px;
+    padding: 0 19px;
+}
+
+.visible-box {
+    width: 870px;
+    overflow: hidden;
+}
+.invisible-box {
+    width: 5000px;
+}
+
+.nth-content {
+    display: inline-block;
+    float: left;
+}
+
+.body-card {
+    width: 870px;
+}
+
+.body-circle{
+    display: inline-block;
+    float: left;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    text-align: center;
+    background-color: lavender;
+}
+
+.body-circle:nth-child(1), .body-circle:nth-child(2) {
+    margin-bottom: 15px;
+}
+    
+.wh {
+    display: inline-block;
+    margin-top: 63px;
+    font-size: 1.3em;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.body-box {
+    display: table;
+    padding: 10px 20px 0 20px;
+    float: right;
+    width: 680px;
+    height: 150px;
+    border: solid 1px #e5e5e5;
+}
+
+.box-text {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.btn-left , .btn-right {
+    font-size: 8em;
+    color: white;
+    text-shadow: 0 0 3px 5px gray;
+}
+
+.btn-left {
+    position: absolute;
+    left: -120px;
+    top: 330px;
+}
+
+.btn-right {
+    position: absolute;
+    left: 955px;
+    top: 330px;
+}
+
+.examples {
+    background-color: lavender;
+}
+
+.ex-table {
+    margin-left: 20px;
+}
+
+#snack-menu {
+    display: inline-box;
+    width: 500px;
+    margin-left: 30px;
+    font-style: italic;
+}
+
+#snack-menu span {
+    background-color: lavender;
+}
+
+#tbl-alarm {
+    display: inline-box;
+    width: 400px;
+}
+
+#tbl-alarm {
+    margin-left: 100px;
+}
+
+#tbl-alarm td {
+    text-align: center;  
+}
+
+#tbl-alarm th {
+    background-color: lavender;  
+    text-align: center;
+    border-top: 1px dashed #333;
+    border-bottom: 1px dashed #333;
+}
+
+/* about-me */
+
+.email {
+    text-transform: lowercase !important;
+}
+
+.text-bold {
+    color: #111;
+    font-weight: bold;
+    font-size: 1.1em;
+}
