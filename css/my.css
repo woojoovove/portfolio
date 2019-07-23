@@ -1,6 +1,5 @@
-/* @import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css); .nanummyeongjo * { font-family: 'Nanum Myeongjo', serif; } */
-@import url(http://fonts.googleapis.com/earlyaccess/jejumyeongjo.css); .jejumyeongjo * { font-family: 'Jeju Myeongjo', serif; }
 
+@import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css); .jejumyeongjo * { font-family: 'Jeju Myeongjo', serif; }
 
 
 /* PORTFOLIO ITEMS */
@@ -163,6 +162,10 @@
 
 .ex-table {
     margin-left: 20px;
+}
+
+#modal2 .topic {
+    font-size: 17px;
 }
 
 #snack-menu {
