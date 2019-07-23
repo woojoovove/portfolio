@@ -1,46 +1,44 @@
 
+var page = 1;
 $(function () {
   
-  var page = 1;
-
   // 페이지 오른쪽 넘김
-
- 
-
 
   $('.btn-right').on('click', function () {
     
+
     if (page == 1) {
       
-      page++;
-
+      
       $('.first-content').animate({width: "0px"} , 500, function() {
         $('.first-content').css({opacity: 0});
       });
       
       $('.btn-right').css({opacity: 0.5});
-
+      
       setInterval(function() {
         
         $('.btn-right').css({opacity: 1});
-    
+        
       }, 300);
-
+      page++;
+      
     } else if (page == 2) {
 
-      page++;
       
       $('.second-content').animate({width: "0px"} , 500, function() {
         $('.second-content').css({opacity: 0});
       });
       
       $('.btn-right').css({opacity: 0.5});
-
+      
       setInterval(function() {
         
         $('.btn-right').css({opacity: 1});
-    
+        
       }, 300);
+      
+      page++;
 
     } 
     
@@ -73,38 +71,40 @@ $(function () {
       
     } else if (page == 2) {
 
-      page--;
-
+      
       $('.first-content').css({opacity: 1});
       $('.first-content').animate({width: "870px"} , 500);
-
+      
       $('.btn-left').css({opacity: 0.5});
-
+      
       setInterval(function() {
         
         $('.btn-left').css({opacity: 1});
-    
+        
       }, 300);
+
+      page--;
 
     } else if (page == 3) {
       
-      page--;
-
+      
       $('.second-content').css({opacity: 1});
       $('.second-content').animate({width: "870px"} , 500);
       
       $('.btn-left').css({opacity: 0.5});
-
+      
       setInterval(function() {
         
         $('.btn-left').css({opacity: 1});
-    
+        
       }, 300);
+
+      page--;
     }
 
   });
 
-  // 닫기 버튼 페이지 리셋
+  // 닫기 버튼 페이지 리셋 & width 초기화
 
   $('.close').on('click', function() {
 
@@ -112,7 +112,11 @@ $(function () {
     $('.first-content').css({opacity: 1});
     $('.first-content').animate({width: "870px"} , 500);
     
+    $('.second-content').css({opacity: 1});
+    $('.second-content').animate({width: "870px"} , 500);
+
     page = 1;
+
 
   });
 
@@ -127,3 +131,4 @@ $(function () {
   if(address[address.length-1] == "contact.html") $(".main-nav li").eq(4).attr('class', 'active');
   
 });
+

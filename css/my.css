@@ -87,7 +87,7 @@
 
 .visible-box {
     width: 870px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .invisible-box {
     width: 5000px;
